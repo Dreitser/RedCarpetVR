@@ -15,13 +15,10 @@
       <a-cylinder position="1 0.75 -3" radius="0.5" height="1.5" color="#FFC65D"></a-cylinder>
       <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4"></a-plane>
       <a-sky color="#ECECEC"></a-sky> -->
-      <a-assets timeout="1">
-        <!-- Multiple source video. -->
-        <video id="video" style="display:none"
+      <a-assets>
+        <!-- Single source video. -->
+        <video id="video" style="display:none" 
                autoplay loop crossorigin="anonymous" playsinline webkit-playsinline>
-          <!-- Native HLS video source. -->
-          <source type="application/x-mpegurl"
-               src="https://cdn.glitch.com/3c75540c-eaff-4599-9386-91482d2a7f43/city_halfres_hls.m3u8?1509419937804" />
           <!-- MP4 video source. -->
           <source type="video/mp4"
                src="https://ucarecdn.com/fadab25d-0b3a-45f7-8ef5-85318e92a261/" />
